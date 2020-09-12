@@ -2,7 +2,7 @@ from sanic import Sanic
 from sanic.response import json, text
 import pymongo
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+myclient = pymongo.MongoClient("mongodb://roy:B0721138@localhost:27017/")
 mydb = myclient["DHT"]
 mycol = mydb["DHT"]
 
