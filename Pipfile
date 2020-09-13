@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 sanic = "*"
 pymongo = "*"
+sanic-cors = "*"
+gunicorn = "*"
+sanic-gunicorn = "*"
 
 [requires]
 python_version = "3.7"
